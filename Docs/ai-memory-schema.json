@@ -1,1 +1,33 @@
-
+{
+  "$comment": "Draft v0.1 schema for a user's exportable/importable AI persona + memory file. This is the file that gets downloaded from one account and uploaded to another to 'transfer' or 'share' an AI.",
+  "schema_version": "0.1",
+  "identity": {
+    "name": "",
+    "traits": {
+      "tone": "casual",
+      "length": "concise",
+      "energy": "calm",
+      "initiative": "waits_to_be_asked"
+    },
+    "custom_description": ""
+  },
+  "memory": {
+    "facts": [],
+    "conversation_summaries": []
+  },
+  "style_profile": {
+    "avg_message_length": 0,
+    "tone_detected": "",
+    "topics": []
+  },
+  "permissions": {
+    "can_read_contacts": false,
+    "can_read_messages": false,
+    "can_post_on_behalf": false,
+    "can_access_files": false
+  },
+  "model_preference": {
+    "preferred_model_name": "",
+    "format": "gguf"
+  }
+}
